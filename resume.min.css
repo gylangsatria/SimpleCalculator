@@ -1,0 +1,99 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+body {
+    font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    padding-top: 54px;
+    color: #868e96
+}
+
+@media (min-width:992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 5.5rem
+}
+
+h2 {
+    font-size: 3.5rem
+}
+
+h3 {
+    font-size: 2rem
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400
+}
+
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.5rem
+}
+
+section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem
+}
+
+section.resume-section .resume-item .resume-date {
+    min-width: none
+}
+
+@media (min-width:768px) {
+    section.resume-section {
+        min-height: 100vh
+    }
+
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem
+    }
+}
+
+@media (min-width:992px) {
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important
+    }
+}
+
+.bg-primary {
+    background-color: #000000 !important
+}
+
+.text-primary {
+    color: #1a518f !important
+}
+
+a {
+    color: #bd5d38
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #824027
+}
