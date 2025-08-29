@@ -51,26 +51,25 @@
 
         // Perform operation
         switch (operator) {
-            case "plus":
-                resultNum = oldNum + theNum;
-                break;
+  case "+":
+    resultNum = oldNum + theNum;
+    break;
+  case "-":
+    resultNum = oldNum - theNum;
+    break;
+  case "*":
+    resultNum = oldNum * theNum;
+    break;
+  case "/":
+    resultNum = oldNum / theNum;
+    break;
+    case "%":
+  resultNum = oldNum % theNum;
+  break;
+  default:
+    resultNum = theNum;
+}
 
-            case "minus":
-                resultNum = oldNum - theNum;
-                break;
-
-            case "times":
-                resultNum = oldNum * theNum;
-                break;
-
-            case "divided by":
-                resultNum = oldNum / theNum;
-                break;
-
-                // If equal is pressed without an operator, keep number and continue
-            default:
-                resultNum = theNum;
-        }
 
         // If NaN or Infinity returned
         if (!isFinite(resultNum)) {

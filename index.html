@@ -1,75 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Simple Calculator</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <link href="resume.min.css" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+<body>
+  <div id="calculator">
+    <div id="resultscreen">0</div>
+    <div class="grid">
+      <button class="num" data-num="7">7</button>
+      <button class="num" data-num="8">8</button>
+      <button class="num" data-num="9">9</button>
+      <button class="ops" data-ops="/">/</button>
 
-<body id="page-top">
-  <div class="container-fluid p-0">
+      <button class="num" data-num="4">4</button>
+      <button class="num" data-num="5">5</button>
+      <button class="num" data-num="6">6</button>
+      <button class="ops" data-ops="*">*</button>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Simple
-          <span class="text-primary">Calculator</span>
-        </h1>
-        <div class="subheading mb-5">
-        </div>
-        <div id="calculator">
-          <div id="resultscreen">0</div>
-          <button class="num" data-num="1">1</button>
-          <button class="num" data-num="2">2</button>
-          <button class="num" data-num="3">3</button>
-          <button class="num" data-num="4">4</button>
-          <button class="num" data-num="5">5</button>
-          <button class="num" data-num="6">6</button>
-          <button class="num" data-num="7">7</button>
-          <button class="num" data-num="8">8</button>
-          <button class="num" data-num="9">9</button>
-          <button class="num" data-num="0">0</button>
-          <button data-ops="plus" class="ops">+</button>
-          <button data-ops="minus" class="ops">-</button>
-          <button data-ops="times" class="ops">*</button>
-          <button class="num" data-num=".">.</button>
-          <button id="equals" class="equals" data-result="">=</button>
-          <button data-ops="divided by" class="ops">/</button>
-          <button id="clear" class="clear">Clear</button>
-        </div>
+      <button class="num" data-num="1">1</button>
+      <button class="num" data-num="2">2</button>
+      <button class="num" data-num="3">3</button>
+      <button class="ops" data-ops="-">-</button>
 
-      </div>
-    </section>
-    <hr class="m-0">
+      <button class="num" data-num="0">0</button>
+      <button class="num" data-num=".">.</button>
+      <button class="equals" id="equals">=</button>
+      <button class="ops" data-ops="+">+</button>
+      <button class="ops" data-ops="%">%</button>
 
+
+      <button class="clear" id="clear">Clear</button>
+    </div>
   </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
+  <script src="calculator-functions.js"></script>
 </body>
-
-<script src="calculator-functions.js"></script>
-
 </html>
